@@ -14,9 +14,9 @@ $ bundle exec middleman server
 Check the page http://localhost:4567/
 
 ## Source
-The main file is index.html.md inside `source` folder
-In index.html.md file one can include other `html.md` files placed
-inside `source/includes` using
+The main file is index.html.md inside `source` folder.
+In index file one can include other `.md` files directly.
+The file must be placed inside `source/includes` using
 
 ```
 includes:
